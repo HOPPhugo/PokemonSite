@@ -4,9 +4,13 @@
 header{
     display: flex;
     align-items: center;
-    font-size: 100px;
+    font-size: 75px;
     justify-content: space-evenly;
     background-color: #866669;
     border-bottom-left-radius: 75px;
     border-bottom-right-radius: 75px;
+    color: #532B27;
+}
+.title {
+    margin-top: -40px;
 }

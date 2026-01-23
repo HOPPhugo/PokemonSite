@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Pokemon_Font;
+    src: url(../Font/PokemonSolidNormal-xyWR.ttf);
+}
 html, body {
+    font-family: Pokemon_Font;
     margin: 0;
+}
+.title {
+    margin-top: -40px;
 }
