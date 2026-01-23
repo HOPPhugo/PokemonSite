@@ -1,0 +1,12 @@
+#pokeball {
+    width: 10%;
+}
+header{
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    justify-content: space-evenly;
+    background-color: #866669;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
