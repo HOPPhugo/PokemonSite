@@ -1,9 +1,7 @@
-@font-face {
-    font-family: Pokemon_Font;
-    src: url(../Font/PokemonSolidNormal-xyWR.ttf);
-}
+
 html, body {
-    font-family: Pokemon_Font;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
     margin: 0;
 }
 .title {
