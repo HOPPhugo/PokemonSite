@@ -12,12 +12,28 @@ section {
     padding-left: 1vw;
     background-color: #77C850;
     height: 15vh;
-    width: 25vh;
+    width: 20vh;
+    max-width: 25vh;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
     color: white;
     box-shadow: 5px 5px 10px #5da13e;
+}
+section:hover{
+    height:25vh;
+    transition: ease 0.75s;
+}
+section:hover .Infos {
+    transition: ease 0.75s;
+    visibility: visible;
+    color: white;
+}
+section:not(:hover){
+    transition: ease 0.5s;
+}
+section:not(:hover) .Infos {
+    transition: ease 0.75s;
 }
 main {
     margin-left: 10vh;
@@ -28,9 +44,6 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 50px;
-}
-.Num {
-    margin-left: 200px;
 }
 .textC {
     display: flex;
@@ -53,6 +66,9 @@ main {
     box-shadow: 5px 5px 7px #5da13e;
 }
 .Num {
+    width: fit-content;
+    margin-right: 20px;
+    margin-left: auto;
     color: #6BB347;
     text-shadow: 2px 2px 5px ;
 }
@@ -62,4 +78,18 @@ main {
 #Space {
     height: 50vh;
     width: 100%;
+}
+.pokemonimg {
+    width : 120;
+}
+.Infos{
+    color: hsl(180, 70%, 47%);
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 20px;
+    visibility: hidden;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
