@@ -1,37 +1,4 @@
-/* --Header-- */
-    header{
-        display: flex;
-        align-items: center;
-        font-size: 100px;
-        background-color: #866669;
-        border-bottom-left-radius: 75px;
-        border-bottom-right-radius: 75px;
-        color: #532B27;
-        
-    }
-    #title, #title2 {
-        margin-top: -40px;
-        margin-bottom: -30px;
-    }
-    #title {
-        margin-left: 20%;
-    }
-    #title2 {
-        margin-right: 20%;
-    }
-    #HomeLink  {
-        width: fit-content;
-    }
-    #pokeball {
-        width: 25%;
-    }
-    #HomeLink {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: fit-content;
-    } 
-/* ------------ */
+
 
 /* --Body--*/
     body {
@@ -43,17 +10,16 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-top: 50px;
     }
     .LeftSide {
-        margin-left: 20%;
+        margin-left: 20vw;
     }
     .RightSide {
             width: fit-content;
             display: flex;
             flex-direction: column;
-            margin-right: 20%;
-            gap: 30px;
+            margin-right: 20vw;
+            gap: 2vh;
     }
     /* --Hugo informations-- */
         .Hugo {
@@ -63,21 +29,21 @@
         }
         .HugoArticle {
             border-bottom: solid;
-            padding-left: 20px;
-            padding-right: 40px;
+            padding-left: 2vw;
+            padding-right: 2vw;
             border-width: 1px;
             
         }
         #NavArticle {
-            padding-left: 20px;
+            padding-left: 2vw;
             border-bottom: solid;
             border-width: 3px;
             border-bottom-style: dotted;
             width: fit-content;
         }
         .NavTexte {
-            margin-top: -20px;
-            margin-bottom: 30px;
+            margin-top: -2vh;
+            margin-bottom: 3vh;
         }
     /* ------------ */
         
@@ -85,9 +51,9 @@
     .Description {
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
-        padding-bottom: 20px;
-        max-width: 500px;
+        padding-left: 1vw;
+        padding-bottom: 2vh;
+        max-width: 25vw;
     }
     /* ------------ */
 
@@ -96,10 +62,15 @@
         text-align: center;
         border-radius: 50px;
         font-size: 40px;
-        width: 520px;
+        width: 26vw;
     }
     .GithubLink:hover {
+        transition: ease-out, 1s;
         background-color: #7bffff;
+    }
+    .GithubLink:not(:hover) {
+        transition: ease-in, 2s;
+        background-color: #50E5E5;
     }
 
     #LinkText {
@@ -111,19 +82,6 @@
     
 /* ------------ */
 
-/*--Footer--*/
-footer {
-    display: flex;
-    align-items: center;
-    font-size: 100px;
-    justify-content: space-evenly;
-    background-color: #866669;
-    border-Top-left-radius: 75px;
-    border-Top-right-radius: 75px;
-    color: #532B27;
-    margin-top: auto;
-}
-/*-------------*/
 
 /* --Generale--*/
     p, h1 {
@@ -135,6 +93,11 @@ footer {
     }
     li:hover {
         background-color: #7bffff;
+        transition: ease-in, 1s;
+    }
+    li:not(:hover) {
+        transition: ease-out, 2s;
+        background-color: #50E5E5;
     }
     nav {
         padding-left: 20px;

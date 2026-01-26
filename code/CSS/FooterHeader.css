@@ -1,0 +1,47 @@
+/* --Header-- */
+    header{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        font-size: 10vh;
+        background-color: #866669;
+        border-bottom-left-radius: 75px;
+        border-bottom-right-radius: 75px;
+        color: #532B27;
+        justify-content: center;
+        width: 100%;
+        gap: 10vw;
+    }
+    #title, #title2 {
+        margin-top: -5vh;
+        margin-bottom: -4vh;
+    }
+    #HomeLink  {
+        width: fit-content;
+    }
+    #pokeball {
+        width: 17vh;
+    }
+    #HomeLink {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+    } 
+/* ------------ */
+
+/*--Footer--*/
+footer {
+    position: fixed;
+    display: grid;
+    align-items: center;
+    font-size: 10vh;
+    justify-content: space-evenly;
+    background-color: #866669;
+    border-Top-left-radius: 75px;
+    border-Top-right-radius: 75px;
+    color: #532B27;
+    margin-top: 86.75vh;
+    width: 100%;
+}
+/*-------------*/

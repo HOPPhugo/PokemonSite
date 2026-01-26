@@ -1,0 +1,22 @@
+body {
+    background-color: hsl(180, 70%, 47%);
+}
+section {
+    padding-left: 1vw;
+    background-color: #50E5E5;
+    height: 20vh;
+    width: 25vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+.centre {
+    display: flex;
+    flex-direction: row;
+}
+.Num {
+    margin-left: 22vh;
+}
