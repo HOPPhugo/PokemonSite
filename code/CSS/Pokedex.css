@@ -7,20 +7,14 @@ main {
     gap: 100px;
     flex-wrap: wrap;
 }
-section:hover{
-    height:250px;
-    transition: ease 0.75s;
+section:hover {
+        height: 210px;
+        transition: ease-in 0.75s;
 }
-section:hover .Infos {
-    transition: ease 0.75s;
-    visibility: visible;
-    color: white;
-}
-section:not(:hover){
-    transition: ease 0.5s;
-}
-section:not(:hover) .Infos {
-    transition: ease 0.75s;
+    section:hover .Bottom {
+        color: white;
+        transition: ease-in 0.6s;
+        visibility: visible;
 }
 main {
     margin-left: 10vh;
@@ -46,11 +40,11 @@ main {
     width: 100%;
 }
 .pokemonimg {
-    width : 100;
+    width: 85px;
 }
 .Infos{
     color: hsl(180, 70%, 47%);
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 80px;
     font-size: 20px;
     visibility: hidden;
@@ -62,35 +56,82 @@ a {
 
 /* Changements selon les types */
     
-    .TypesG {
-        background-color: #83DC58;
+    #Type {
         padding: 2px;
         border-radius: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Fire #Type {
+
+        box-shadow: 5px 5px 7px #cc783d;
+    }
+    .Water #Type {
+
+        box-shadow: 5px 5px 7px #4b71ca;
+    }
+    .Grass #Type {
+
         box-shadow: 5px 5px 7px #5da13e;
+    }
+    .Vol #Type {
+
+        box-shadow: 5px 5px 7px #A890F0;
+    }
+    .Normal #Type {
+
+        box-shadow: 5px 5px 7px transparent;
+    }
+    .Electycite #Type {
+
+        box-shadow: 5px 5px 7px transparent;
+    }
+    .Glace #Type {
+
+        box-shadow: 5px 5px 7px transparent;
+    }
+    .Combat #Type {
+
+        box-shadow: 5px 5px 7px transparent;
+    }
+    .Poison #Type {
+
+        box-shadow: 5px 5px 7px transparent;
+    }
+    .Sol #Type {
+
+        box-shadow: 5px 5px 7px transparent;
+    }
+    .Psy #Type {
+
+        box-shadow: 5px 5px 7px transparent;
+    }
+    .Insecte #Type {
+
+        box-shadow: 5px 5px 7px transparent;
+    }
+    .Normal #Type {
+
+        box-shadow: 5px 5px 7px transparent;
+    }
+    .Normal #Type {
+
+        box-shadow: 5px 5px 7px transparent;
     }
     .TypesF {
         background-color: #f59048;
-        padding: 2px;
-        border-radius: 30px;
-        box-shadow: 5px 5px 7px #cc783d;
-        padding-left: 10px;
-        padding-right: 10px;
     }
     .TypesP {
         background-color: #B046B0;
-        padding: 2px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border-radius: 30px;
-        box-shadow: 5px 5px 7px #5da13e;
+    }
+    .TypesG {
+        background-color: #83DC58;
     }
     .TypesV {
         background-color: #6BAED6;
-        padding: 2px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border-radius: 30px;
-        box-shadow: 5px 5px 7px rgba(73, 127, 158, 0.219);
+    }
+    .TypesW {
+        background-color: #9DB7F5;
     }
     .Num {
         width: fit-content;
@@ -104,26 +145,63 @@ a {
 
     }
     section {
-        padding-top: 2vh;
-        padding-left: 1vw;
-        height: 160px;
-        width: 250px;
         display: flex;
         flex-direction: column;
         border-radius: 30px;
         color: white;
         background-color: #77C850;
         box-shadow: 5px 5px 10px #5da13e;
+        padding: 10px;
+        height: 140px;
+        transition: ease-in 0.75s;
+        width: 220px;
     }
     .Grass {
         background-color: #77C850;
         box-shadow: 5px 5px 10px #5da13e;
-
     }
     .Fire {
         background-color: #F08030;
-        box-shadow: 5px 5px 10px #F08030;
+        box-shadow: 5px 5px 10px #d36f27;
+
+    }
+    .Water {
+        background-color: #6890F0;
+        box-shadow: 5px 5px 10px #4b71ca;
 
     }
 
 /* ------------------------------------------------------ */
+
+/*Images des pokemons spe*/ 
+    #Charizard {
+        width: 120px;
+    }
+    #Bulbizard {
+        width: 100px;
+    }
+    #Herbizzard {
+        width: 100px;
+    }
+    #Florizarre {
+        width: 100px;
+    }
+    #Charizard {
+        width: 120px;
+    }
+
+
+/* ------------------------------------------------------ */
+    
+    .Bottom {
+        margin-top: 10px;
+        text-align: center;
+        visibility: hidden;
+        color: transparent;
+        height: 0px;
+        transition: ease-in 0.75s;
+        padding-bottom: 5px;
+    }
+    a {
+        height: fit-content;
+    }

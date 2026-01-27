@@ -3,7 +3,7 @@
         position: fixed;
         display: flex;
         align-items: center;
-        font-size: 10vh;
+        font-size: 5vw;
         background-color: #866669;
         border-bottom-left-radius: 75px;
         border-bottom-right-radius: 75px;
@@ -35,13 +35,13 @@ footer {
     position: fixed;
     display: grid;
     align-items: center;
-    font-size: 10vh;
+    font-size: 5vw;
     justify-content: space-evenly;
     background-color: #866669;
     border-Top-left-radius: 75px;
     border-Top-right-radius: 75px;
     color: #532B27;
-    margin-top: 86.75vh;
+    bottom: 0px;
     width: 100%;
 }
 /*-------------*/
