@@ -7,21 +7,8 @@ main {
     gap: 100px;
     flex-wrap: wrap;
 }
-section {
-    padding-top: 2vh;
-    padding-left: 1vw;
-    background-color: #77C850;
-    height: 15vh;
-    width: 20vh;
-    max-width: 25vh;
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
-    color: white;
-    box-shadow: 5px 5px 10px #5da13e;
-}
 section:hover{
-    height:25vh;
+    height:250px;
     transition: ease 0.75s;
 }
 section:hover .Infos {
@@ -51,27 +38,6 @@ main {
     gap: 10px;
     text-align: center;
 }
-.TypesG {
-    background-color: #83DC58;
-    padding: 2px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 7px #5da13e;
-}
-.TypesP {
-    background-color: #B046B0;
-    padding: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 7px #5da13e;
-}
-.Num {
-    width: fit-content;
-    margin-right: 20px;
-    margin-left: auto;
-    color: #6BB347;
-    text-shadow: 2px 2px 5px ;
-}
 .Titre {
     text-shadow: 2px 2px 5px whitesmoke ;
 }
@@ -80,12 +46,12 @@ main {
     width: 100%;
 }
 .pokemonimg {
-    width : 120;
+    width : 100;
 }
 .Infos{
     color: hsl(180, 70%, 47%);
-    margin-top: 50px;
-    margin-left: 90px;
+    margin-top: 10px;
+    margin-left: 80px;
     font-size: 20px;
     visibility: hidden;
 }
@@ -93,3 +59,71 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/* Changements selon les types */
+    
+    .TypesG {
+        background-color: #83DC58;
+        padding: 2px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 7px #5da13e;
+    }
+    .TypesF {
+        background-color: #f59048;
+        padding: 2px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 7px #cc783d;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .TypesP {
+        background-color: #B046B0;
+        padding: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 7px #5da13e;
+    }
+    .TypesV {
+        background-color: #B046B0;
+        padding: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 7px #5da13e;
+    }
+    .Num {
+        width: fit-content;
+        margin-right: 20px;
+        margin-left: auto;
+        color: #6BB347;
+        text-shadow: 2px 2px 5px ;
+    }
+    .Fire .Num {
+        color: #cc783d;
+
+    }
+    section {
+        padding-top: 2vh;
+        padding-left: 1vw;
+        height: 160px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        color: white;
+        background-color: #77C850;
+        box-shadow: 5px 5px 10px #5da13e;
+    }
+    .Grass {
+        background-color: #77C850;
+        box-shadow: 5px 5px 10px #5da13e;
+
+    }
+    .Fire {
+        background-color: #F08030;
+        box-shadow: 5px 5px 10px #F08030;
+
+    }
+
+/* ------------------------------------------------------ */
