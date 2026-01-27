@@ -50,7 +50,7 @@ main {
 }
 .Infos{
     color: hsl(180, 70%, 47%);
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 80px;
     font-size: 20px;
     visibility: hidden;
@@ -85,12 +85,12 @@ a {
         box-shadow: 5px 5px 7px #5da13e;
     }
     .TypesV {
-        background-color: #B046B0;
+        background-color: #6BAED6;
         padding: 2px;
         padding-left: 10px;
         padding-right: 10px;
         border-radius: 30px;
-        box-shadow: 5px 5px 7px #5da13e;
+        box-shadow: 5px 5px 7px rgba(73, 127, 158, 0.219);
     }
     .Num {
         width: fit-content;
