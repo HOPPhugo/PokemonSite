@@ -4,7 +4,7 @@ body {
 }
 main {
     display: flex;
-    gap: 100px;
+    gap: 75px;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -13,6 +13,7 @@ main {
     flex-direction: row;
     gap: 100px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 section:hover {
         height: 210px;
@@ -32,6 +33,7 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 50px;
+    margin-left: 10px;
 }
 .textC {
     display: flex;
@@ -41,6 +43,7 @@ main {
 }
 .Titre {
     text-shadow: 2px 2px 5px whitesmoke ;
+    margin-left:10px ;
 }
 #Space {
     height: 50vh;
@@ -82,7 +85,7 @@ a {
     }
     .Fly #Type {
 
-        box-shadow: 5px 5px 7px #A890F0;
+        box-shadow: 5px 5px 7px #5a9ac0;
     }
     .Normal #Type {
 
@@ -114,7 +117,7 @@ a {
     }
     .Bug #Type {
 
-        box-shadow: 5px 5px 7px  #33691E;
+        box-shadow: 5px 5px 7px  #56a338;
     }
     .Rock #Type {
         
@@ -150,16 +153,16 @@ a {
         background-color: #83DC58;
     }
     .TypesFly {
-        background-color: #6BAED6;
+        background-color: #87c1e2;
     }
     .TypesWater {
         background-color: #9DB7F5;
     }
     .TypesNormal {
-        background-color: #E0E0E0;
+        background-color: #b4b4b4;
     }
     .TypesElectric {
-        background-color: #FFF59D;
+        background-color: #f7df0f;
     }
     .TypesIce {
         background-color: #0288D1;
@@ -174,7 +177,7 @@ a {
         background-color: #F8BBD0;
     }
     .TypesBug {
-        background-color: #C5E1A5;
+        background-color: #b2d887;
     }
     .TypesRock {
         background-color: #D7CCC8;
@@ -207,6 +210,25 @@ a {
     }
     .Water .Num {
         color: #4b71ca;
+    }
+    .Bug .Num {
+        color: #6a9c34;
+
+    }
+    .Fly .Num {
+        color: #5595b9;
+
+    }
+    .Normal .Num {
+        color: #818181;
+
+    }
+    .Poison .Num {
+        color: #5d127e;
+
+    }
+    .Electric .Num {
+        color: #dba722;
 
     }
     section {
@@ -235,6 +257,7 @@ a {
     }
     .Fly {
         background-color: #6BAED6;
+        box-shadow: 5px 5px 10px #5595b9;
     }
     .Water {
         background-color: #6890F0;
@@ -317,7 +340,38 @@ a {
     #Squirtle {
         width: 90px;
     }
-
+    #Wartortle {
+        width: 90px;
+    }
+    #Caterpie {
+        width: 95px;
+    }
+    #Butterfree {
+        width: 105px;
+    }
+    #Weedle {
+        width: 75px;
+    }
+    #Kakuna {
+        width: 50px;
+    }
+    #Beedrill {
+        width: 80px;
+    }
+    #Pidgeotto {
+        width: 80px;
+    }
+    #Pidgeot {
+        width: 90px;
+    }
+    #Rattata {
+        margin-left: -15px;
+        width: 105px;
+    }
+    #Raticate {
+        margin-left: -10px;
+        width: 95px;
+    }
 
 /* ------------------------------------------------------ */
     
