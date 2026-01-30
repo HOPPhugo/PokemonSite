@@ -63,7 +63,7 @@ a {
         padding-right: 10px;
     }
     .Fire #Type {
-
+        background-color: #f59048;
         box-shadow: 5px 5px 7px #cc783d;
     }
     .Water #Type {
@@ -74,64 +74,119 @@ a {
 
         box-shadow: 5px 5px 7px #5da13e;
     }
-    .Vol #Type {
+    .Fly #Type {
 
         box-shadow: 5px 5px 7px #A890F0;
     }
     .Normal #Type {
 
-        box-shadow: 5px 5px 7px transparent;
+        box-shadow: 5px 5px 7px #616161;
     }
-    .Electycite #Type {
+    .Electric #Type {
 
-        box-shadow: 5px 5px 7px transparent;
+        box-shadow: 5px 5px 7px  #F57F17;
     }
-    .Glace #Type {
+    .Ice #Type {
 
-        box-shadow: 5px 5px 7px transparent;
+        box-shadow: 5px 5px 7px #0288D1;
     }
-    .Combat #Type {
+    .Fight #Type {
 
-        box-shadow: 5px 5px 7px transparent;
+        box-shadow: 5px 5px 7px #8E0000;
     }
     .Poison #Type {
 
-        box-shadow: 5px 5px 7px transparent;
+        box-shadow: 5px 5px 7px  #4A0072;
     }
-    .Sol #Type {
+    .Ground #Type {
 
-        box-shadow: 5px 5px 7px transparent;
+        box-shadow: 5px 5px 7px #5D4037;
     }
     .Psy #Type {
 
-        box-shadow: 5px 5px 7px transparent;
+        box-shadow: 5px 5px 7px #AD1457;
     }
-    .Insecte #Type {
+    .Bug #Type {
 
-        box-shadow: 5px 5px 7px transparent;
+        box-shadow: 5px 5px 7px  #33691E;
     }
-    .Normal #Type {
-
-        box-shadow: 5px 5px 7px transparent;
+    .Rock #Type {
+        
+        box-shadow: 5px 5px 7px  #4E342E;
     }
-    .Normal #Type {
-
-        box-shadow: 5px 5px 7px transparent;
+    .Ghost #Type {
+        
+        box-shadow: 5px 5px 7px  #311B92;
     }
-    .TypesF {
+    .Dragon #Type {
+        
+        box-shadow: 5px 5px 7px  #1A237E;
+    }
+    .Steel #Type {
+        
+        box-shadow: 5px 5px 7px  #37474F;
+    }
+    .Fairy #Type {
+        
+        box-shadow: 5px 5px 7px  #C2185B;
+    }
+    .Dark #Type {
+        
+        box-shadow: 5px 5px 7px  #1C1C1C;
+    }
+    .TypesFire {
         background-color: #f59048;
     }
-    .TypesP {
+    .TypesPoison {
         background-color: #B046B0;
     }
-    .TypesG {
+    .TypesGrass {
         background-color: #83DC58;
     }
-    .TypesV {
+    .TypesFly {
         background-color: #6BAED6;
     }
-    .TypesW {
+    .TypesWater {
         background-color: #9DB7F5;
+    }
+    .TypesNormal {
+        background-color: #E0E0E0;
+    }
+    .TypesElectric {
+        background-color: #FFF59D;
+    }
+    .TypesIce {
+        background-color: #0288D1;
+    }
+    .TypesFight {
+        background-color: #EF9A9A;
+    }
+    .TypesGround {
+        background-color: #CE93D8;
+    }
+    .TypesPsy {
+        background-color: #F8BBD0;
+    }
+    .TypesBug {
+        background-color: #C5E1A5;
+    }
+    .TypesRock {
+        background-color: #D7CCC8;
+    }
+    .TypesGhost {
+        background-color: #B39DDB;
+    }
+    .TypesDragon {
+        background-color: #9FA8DA;
+    }
+    .TypesDark {
+        background-color: #BDBDBD;
+    }
+    .TypesSteel {
+        background-color: #CFD8DC;
+    }
+    .TypesFairy {
+        background-color: #FCE4EC;
     }
     .Num {
         width: fit-content;
@@ -156,19 +211,76 @@ a {
         transition: ease-in 0.75s;
         width: 220px;
     }
+    .Fire {
+        background-color: #F08030;
+        box-shadow: 5px 5px 10px #d36f27;
+    }
+    .Poison {
+        background-color: #7B1FA2;
+        box-shadow: 5px 5px 10px #5d127e;
+    }
     .Grass {
         background-color: #77C850;
         box-shadow: 5px 5px 10px #5da13e;
     }
-    .Fire {
-        background-color: #F08030;
-        box-shadow: 5px 5px 10px #d36f27;
-
+    .Fly {
+        background-color: #6BAED6;
     }
     .Water {
         background-color: #6890F0;
         box-shadow: 5px 5px 10px #4b71ca;
-
+    }
+    .Normal {
+        background-color: #9E9E9E;
+        box-shadow: 5px 5px 10px #818181;
+    }
+    .Electric {
+        background-color: #FBC02D;
+        box-shadow: 5px 5px 10px #dba722;
+    }
+    .Ice {
+        background-color: #4FC3F7;
+        box-shadow: 5px 5px 10px #3da6d6;
+    }
+    .Fight {
+        background-color: #C62828;
+        box-shadow: 5px 5px 10px #a51e1e;
+    }
+    .Ground {
+        background-color: #A1887F;
+        box-shadow: 5px 5px 10px #836b62;
+    }
+    .Psy {
+        background-color: #EC407A;
+        box-shadow: 5px 5px 10px #bd2e5e;
+    }
+    .Bug {
+        background-color: #7CB342;
+        box-shadow: 5px 5px 10px #6a9c34;
+    }
+    .Rock {
+        background-color: #8D6E63;
+        box-shadow: 5px 5px 10px #664d44;
+    }
+    .Ghost {
+        background-color: #512DA8;
+        box-shadow: 5px 5px 10px #452492;
+    }
+    .Dragon {
+        background-color: #303F9F;
+        box-shadow: 5px 5px 10px #253181;
+    }
+    .Dark {
+        background-color: #424242;
+        box-shadow: 5px 5px 10px #2e2d2d;
+    }
+    .Steel {
+        background-color: #607D8B;
+        box-shadow: 5px 5px 10px #48616d;
+    }
+    .Fairy {
+        background-color: #F48FB1;
+        box-shadow: 5px 5px 10px #cf7493;
     }
 
 /* ------------------------------------------------------ */
