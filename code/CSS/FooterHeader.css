@@ -11,6 +11,7 @@
         justify-content: center;
         width: 100%;
         gap: 10vw;
+        
     }
     #title, #title2 {
         margin-top: -5vh;
@@ -43,5 +44,6 @@ footer {
     color: #532B27;
     bottom: 0px;
     width: 100%;
+    
 }
 /*-------------*/

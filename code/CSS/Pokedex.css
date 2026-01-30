@@ -6,15 +6,22 @@ main {
     display: flex;
     gap: 100px;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+.PokemonChain {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
 }
 section:hover {
         height: 210px;
-        transition: ease-in 0.75s;
+        transition: ease-in 0.5s;
 }
-    section:hover .Bottom {
-        color: white;
-        transition: ease-in 0.6s;
-        visibility: visible;
+section:hover .Bottom {
+    color: white;
+    transition: ease-in 0.6s;
+    visibility: visible;
 }
 main {
     margin-left: 10vh;
@@ -63,7 +70,6 @@ a {
         padding-right: 10px;
     }
     .Fire #Type {
-        background-color: #f59048;
         box-shadow: 5px 5px 7px #cc783d;
     }
     .Water #Type {
@@ -199,6 +205,10 @@ a {
         color: #cc783d;
 
     }
+    .Water .Num {
+        color: #4b71ca;
+
+    }
     section {
         display: flex;
         flex-direction: column;
@@ -292,14 +302,20 @@ a {
     #Bulbizard {
         width: 100px;
     }
-    #Herbizzard {
+    #Ivysaur {
         width: 100px;
     }
-    #Florizarre {
-        width: 100px;
+    #Venusaur {
+        width: 105px;
     }
     #Charizard {
         width: 120px;
+    }
+    #Charmeleon {
+        width: 80px;
+    }
+    #Squirtle {
+        width: 90px;
     }
 
 
