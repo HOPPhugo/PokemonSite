@@ -109,7 +109,7 @@ a {
     }
     .Ground #Type {
 
-        box-shadow: 5px 5px 7px #5D4037;
+        box-shadow: 5px 5px 7px #886358;
     }
     .Psy #Type {
 
@@ -171,7 +171,7 @@ a {
         background-color: #EF9A9A;
     }
     .TypesGround {
-        background-color: #CE93D8;
+        background-color: #5D4037;
     }
     .TypesPsy {
         background-color: #F8BBD0;
@@ -230,6 +230,9 @@ a {
     .Electric .Num {
         color: #dba722;
 
+    }
+    .Ground .Num {
+        color: #836b62;
     }
     section {
         display: flex;
@@ -371,6 +374,50 @@ a {
     #Raticate {
         margin-left: -10px;
         width: 95px;
+    }
+    #Spearow {
+        width: 90px;
+    }
+    #Fearow {
+        margin-left: -10px;
+        width: 100px;
+    }
+    #Ekans {
+        width: 95px;
+    }
+    #Arbok {
+        width: 85px;
+    }
+    #Pikachu {
+        margin-left: -10px;
+        width: 100px;
+    }
+    #Raichu {
+        margin-left: -15px;
+        width: 105px;
+    }
+    #Sandslash {
+        margin-left: -10px;
+        width: 95px;
+    }
+    #Nidoran♀{
+        width: 95px;
+    }
+    #Nidorina{
+        width: 80px;
+    }
+    #Nidoqueen{
+        width: 90px;
+    }
+    #Nidoran♂{
+        width: 80px;
+    }
+    #Nidorino{
+        width: 80px;
+    }
+    #Nidoking {
+        width: 120px;
+        margin-left: -35px;
     }
 
 /* ------------------------------------------------------ */
