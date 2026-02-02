@@ -13,15 +13,15 @@
         <a id="HomeLink" href="Index.html"><img id="pokeball" src="../Images/pokeball.png" alt="pokeball"></a>
         <Span id="title2">Wiki</Span>
     </header>
-
     <main>
         <div class="PokemonChain">
+            
             
             <section class="Grass">
                 <a href="PokmeonLink"></a>
                     <article class="Top">
                         <p class="Num">#1</p>
-                        <p class="Titre">Bulbasaur <span id="sonBulbi">🔊</span></p>
+                        <p class="Titre">Bulbasaur <span id="1">🔊</span></p>
                         <div class="Centre">
                             <div class="textC">
                             <p id="Type" class="TypesGrass">grass</p>
@@ -43,24 +43,14 @@
                     </article>
                 </a>
             </section>
-            <script>
-                const BulbizarreSound = new Audio('../Audio/Cri_0001_HOME.ogg');
-                document.getElementById("sonBulbi").onclick = function() {myFunction()};
-
-                function myFunction() {
-                    
-                    BulbizarreSound.play();
-                    
-                }
-
-            </script>
+            
     
             
             <section class="Grass">
                 <a href="PokmeonLink"></a>
                     <article class="Top">
                         <p class="Num">#2</p>
-                        <p class="Titre">Ivysaur</p>
+                        <p class="Titre">Ivysaur <span id="2">🔊</span></p>
                         <div class="Centre">
                             <div class="textC">
                             <p id="Type" class="TypesGrass">grass</p>
@@ -88,7 +78,7 @@
                 <a href="PokmeonLink"></a>
                     <article class="Top">
                         <p class="Num">#3</p>
-                        <p class="Titre">Venusaur</p>
+                        <p class="Titre">Venusaur <span id="3">🔊</span></p>
                         <div class="Centre">
                             <div class="textC">
                             <p id="Type" class="TypesGrass">grass</p>
@@ -120,7 +110,7 @@
                 <a href="PokmeonLink"></a>
                     <article class="Top">
                         <p class="Num">#4</p>
-                        <p class="Titre">Charmander</p>
+                        <p class="Titre">Charmander <span id="4">🔊</span></p>
                         <div class="Centre">
                             <div class="textC">
                             <p id="Type" class="TypesFire">Fire</p>
@@ -146,7 +136,7 @@
                 <a href="PokmeonLink"></a>
                     <article class="Top">
                         <p class="Num">#5</p>
-                        <p class="Titre">Charmeleon</p>
+                        <p class="Titre">Charmeleon <span id="5">🔊</span></p>
                         <div class="Centre">
                             <div class="textC">
                             <p id="Type" class="TypesFire">Fire</p>
@@ -172,7 +162,7 @@
                 <a href="PokmeonLink"></a>
                     <article class="Top">
                         <p class="Num">#6</p>
-                        <p class="Titre">Charizard</p>
+                        <p class="Titre">Charizard <span id="6">🔊</span></p>
                         <div class="Centre">
                             <div class="textC">
                             <p id="Type" class="TypesFire">Fire</p>
@@ -980,3 +970,32 @@
     </footer>
 </body>
 </html>
+<script>
+const BulbizarreSound = new Audio('../Audio/Cri_0001_HOME.ogg');
+const HerbizarreSound = new Audio('../Audio/Cri_0002_HOME.ogg');
+const FlorizarreSound = new Audio('../Audio/Cri_0003_HOME.ogg');
+const SalamècheSound = new Audio('../Audio/Cri_0004_HOME.ogg');
+const ReptincelSound = new Audio('../Audio/Cri_0005_HOME.ogg');
+const DracaufeuSound = new Audio('../Audio/Cri_0006_HOME.ogg');
+document.getElementById("1").onclick = function() {myFunction(1)};
+document.getElementById("2").onclick = function() {myFunction(2)};
+document.getElementById("3").onclick = function() {myFunction(3)};
+document.getElementById("4").onclick = function() {myFunction(4)};
+document.getElementById("5").onclick = function() {myFunction(5)};
+document.getElementById("6").onclick = function() {myFunction(6)};
+
+function myFunction(PID) {
+    
+    switch (PID) {
+        case 1:  BulbizarreSound.play(); break;
+        case 2:  HerbizarreSound.play(); break;
+        case 3:  FlorizarreSound.play(); break;
+        case 4:  SalamècheSound.play(); break;
+        case 5:  ReptincelSound.play(); break;
+        case 6:  DracaufeuSound.play(); break;
+
+    }
+    
+}
+
+</script>

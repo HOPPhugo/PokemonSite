@@ -2,6 +2,12 @@ body {
     background-color: hsl(180, 70%, 47%);
     
 }
+span {
+    text-shadow: none;
+}
+span:hover {
+    cursor:pointer;
+}
 main {
     display: flex;
     gap: 75px;
@@ -325,14 +331,21 @@ a {
     #Charizard {
         width: 120px;
     }
+    #Charmander {
+        margin-left: 20px;
+        width: 80px;
+    }
     #Bulbizard {
         width: 100px;
+        margin-left: -10px;
     }
     #Ivysaur {
         width: 100px;
+        margin-left: -10px;
     }
     #Venusaur {
-        width: 105px;
+        width: 100px;
+        margin-left: -10px;
     }
     #Charizard {
         width: 120px;

@@ -1,0 +1,18 @@
+body {
+        background-color: hsl(180, 70%, 47%);
+}
+section {
+        font-size: 50px;
+        text-align: center;
+        background-color: #1ba8a8;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    gap : 20px;
+}
