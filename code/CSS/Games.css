@@ -1,18 +1,67 @@
 body {
-        background-color: hsl(180, 70%, 47%);
+        background-color: #24cccc;
+}
+main {
+        padding: 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
 }
 section {
         font-size: 50px;
         text-align: center;
         background-color: #1ba8a8;
-        width: fit-content;
-        padding: 10px;
+        width: 700px;
+        padding: 20px;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
+        height: 300px;
 }
 article {
     display: flex;
     flex-direction: row;
     gap : 20px;
+}
+.Images {
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        flex: 1;
+}
+summary {
+
+        background-color: #ffffff23;
+        color: rgba(240, 255, 255, 0.596);
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 50px;
+        flex: 1;
+        max-height: 280px;
+        overflow-y:auto; 
+        scrollbar-color: rgba(255, 255, 255, 0.13) transparent;
+        scrollbar-width: thin;
+}
+#Description {
+        font-size: 20px;
+}
+#More {
+        color: rgba(240, 255, 255, 0.308);
+        font-size: 25px;
+}
+#PokemonSoleil {
+        content: url(../Images/Jaquette_de_Pokémon_Lune.png);
+}
+#PokemonSoleil {
+        content: url(../Images/Jaquette_de_Pokémon_Soleil.png);
+}
+#petiteImage:target {
+        content: url(../Images/Jaquette_de_Pokémon_Soleil.png);
+}
+#petiteImage {
+        justify-self: end;
+        position: absolute;
+        width: 50px;
 }
