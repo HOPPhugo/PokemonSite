@@ -17,3 +17,7 @@ main {
 p {
     margin: 0;
 }
+#Space {
+    height: 50vh;
+    width: 100%;
+}

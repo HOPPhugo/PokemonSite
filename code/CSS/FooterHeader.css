@@ -1,6 +1,6 @@
 /* --Header-- */
     header{
-        position: fixed;
+        position:fixed;
         display: flex;
         align-items: center;
         font-size: 5vw;
@@ -11,7 +11,7 @@
         justify-content: center;
         width: 100%;
         gap: 10vw;
-        
+        z-index: 1;
         
     }
     #title, #title2 {

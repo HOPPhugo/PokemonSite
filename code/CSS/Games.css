@@ -51,17 +51,112 @@ summary {
         color: rgba(240, 255, 255, 0.308);
         font-size: 25px;
 }
-#PokemonSoleil {
-        content: url(../Images/Jaquette_de_Pokémon_Lune.png);
+.Categorie {
+        height: fit-content;
+        width: 100%;
 }
-#PokemonSoleil {
-        content: url(../Images/Jaquette_de_Pokémon_Soleil.png);
+.Categorie Article {
+        display: flex;
+        justify-content: center;
+        
 }
-#petiteImage:target {
-        content: url(../Images/Jaquette_de_Pokémon_Soleil.png);
+/* --Générations-- */
+#G1 {
+        background-color:#e67d2242;
+        color: #E67E22;
 }
-#petiteImage {
+#G2 {
+        background-color:#e67d2242;
+        color: #E67E22;
+}
+#G3 {
+        background-color:#e67d2242;
+        color: #E67E22;
+}
+#G4 {
+        background-color:#e67d2242;
+        color: #E67E22;
+}
+#G5 {
+        background-color:#e67d2242;
+        color: #E67E22;
+}
+#G6 {
+        background-color:#e67d2242;
+        color: #E67E22;
+}
+#G7 {
+        background-color:#e67d2242;
+        color: #E67E22;
+}
+#G8 {
+        background-color:#e67d2242;
+        color: #E67E22;
+}
+#G9 {
+        background-color:#e67d2242;
+        color: #E67E22;
+}
+/* -------------- */
+
+/* --Soleil/Lune-- */
+#PetitLunala {
         justify-self: end;
         position: absolute;
-        width: 50px;
+        width: 50px;  
 }
+#PetitLunala:hover{
+      content: url(../Images/Jaquette_de_Pokémon_Soleil.png);
+}
+.Groupe:has(#PetitLunala:hover) #PokemonSoleil {
+      content: url(../Images/Jaquette_de_Pokémon_Lune.png)
+}
+.Groupe:has(#PokemonSoleil:hover) #PetitLunala {
+      content: url(../Images/Jaquette_de_Pokémon_Soleil.png)
+}
+#PokemonSoleil:hover {
+      content: url(../Images/Jaquette_de_Pokémon_Lune.png)
+}
+/* -------------  */
+
+/* --UlraSoleil/UltraLune-- */
+#PetitUltraLunala {
+        justify-self: end;
+        position: absolute;
+        width: 50px;  
+}
+
+#PetitUltraLunala:hover{
+      content: url(../Images/Jaquette_de_Pokémon_Ultra-Soleil.jpg);
+}
+.Groupe:has(#PetitUltraLunala:hover) #PokemonUltraSoleil {
+      content: url(../Images/Jaquette_de_Pokémon_Ultra-Lune.jpg)
+}
+.Groupe:has(#PokemonUltraSoleil:hover) #PetitUltraLunala {
+      content: url(../Images/Jaquette_de_Pokémon_Ultra-Soleil.jpg)
+}
+#PokemonUltraSoleil:hover {
+      content: url(../Images/Jaquette_de_Pokémon_Ultra-Lune.jpg)
+}
+/* -------------  */
+
+/* --Pikachu/Evolie-- */
+#PetitEvolie {
+        justify-self: end;
+        position: absolute;
+        width: 50px;  
+}
+
+#PetitEvolie:hover{
+      content: url("../Images/Jaquette_de_Pokémon_Let\'s_Go_Pikachu.png");
+}
+.Groupe:has(#PetitEvolie:hover) #PokemonPikachu {
+      content: url("../Images/Jaquette_de_Pokémon_Let\'s_Go_Évoli.png")
+}
+.Groupe:has(#PokemonPikachu:hover) #PetitEvolie {
+      content: url("../Images/Jaquette_de_Pokémon_Let\'s_Go_Pikachu.png")
+}
+#PokemonPikachu:hover {
+      content: url("../Images/Jaquette_de_Pokémon_Let\'s_Go_Évoli.png")
+}
+/* -------------  */

@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+.Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    font-size: 40px;
+}
+.Middle {
+flex: 2;
+display: flex;
+justify-content: center;
+align-items: center;
+perspective: 800px;
+}
+span {
+}
+.Right {
+flex: 1;
+}
+
+/* --Pokemons-- */
+#Bulbasaur {
+    width: 500px;
+}
+/* ------------ */

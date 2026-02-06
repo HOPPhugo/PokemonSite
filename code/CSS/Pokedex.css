@@ -51,10 +51,6 @@ main {
     text-shadow: 2px 2px 5px whitesmoke ;
     margin-left:10px ;
 }
-#Space {
-    height: 50vh;
-    width: 100%;
-}
 .pokemonimg {
     width: 85px;
 }
