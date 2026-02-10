@@ -24,6 +24,7 @@ main {
 section:hover {
         height: 210px;
         transition: ease-in 0.5s;
+        cursor:pointer;
 }
 section:hover .Bottom {
     color: white;

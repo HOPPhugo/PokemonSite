@@ -17,7 +17,7 @@
         <div class="PokemonChain">
             
             
-            <section class="Grass">
+            <section id="Bulbasaur" class="Grass">
                 <a href="PokmeonLink"></a>
                     <article class="Top">
                         <p class="Num">#1</p>
@@ -28,9 +28,7 @@
                             <p id="Type" class="TypesGrass">grass</p>
                             <p id="Type" class="TypesPoison">poison</p>
                             </div>
-                            <a href="../HTML/Pokemons/Bulbizzare.html">
-                                <img id="Bulbizard" class="PokemonImg" src="../Images/Bulbizarre-RFVF.png" alt="Bulbasaur" >                            
-                            </a>
+                                <img id="Bulbizard" class="PokemonImg" src="../Images/Bulbizarre-RFVF.png" alt="Bulbasaur" > 
                         </div>
                     </article>
                     <article class="Bottom">
@@ -973,6 +971,11 @@
     </footer>
 </body>
 </html>
+ <script>
+        document.getElementById('Bulbasaur').addEventListener('click', function () {
+            window.location.href = 'Pokemons/Bulbizzare.html';
+        });
+    </script>
 <script>
 const BulbizarreSound = new Audio('../Audio/Cri_0001_HOME.ogg');
 const HerbizarreSound = new Audio('../Audio/Cri_0002_HOME.ogg');
