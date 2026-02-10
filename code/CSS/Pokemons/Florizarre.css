@@ -1,0 +1,152 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    margin-top: 25vh;
+}
+html, body {
+    max-height: 100%;
+    background-image: url(../../Images/forest.jfif);
+    background-repeat: no-repeat;
+    background-position-y:-350px;
+    
+}
+.Left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    transform: perspective(15cm) rotateY(40deg) ;
+}
+.LeftLeft, .RightLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 25px;
+}
+.cloudL {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow:  0 0 30px 2.5px  rgb(255, 255, 255);
+}
+.CloudR {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow:  0 0 30px 2.5px  rgb(255, 255, 255);
+}
+#Right {
+    gap: 30px;
+}
+.LeftLeft {
+    display: flex;
+    align-items: flex-end;
+}
+.Middle {
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: -200px;
+}
+.Right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    font-size: 40px;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    transform: perspective(15cm) rotateY(-40deg) ;
+    gap: 50px;
+    margin-left: -200px;
+}
+
+/* --Pokemons-- */
+#Bulbasaur {
+    width: 400px;
+}
+/* ------------ */
+@keyframes progress-animation {
+  0% { width: 0%; }
+  50% { width: 100%; }
+}
+#BareFormat {
+background:linear-gradient( 135deg, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50);
+  
+  height: 20px;
+  
+  animation: progress-animation 2s forwards;
+  border-radius: 20px;
+  font-size: 15px;
+  text-align: end;
+  padding-right: 5px;
+  color: rgba(255, 255, 255, 0.808);
+}
+.progress-barHP {
+  width: 31.4%;
+  
+}
+.MaxSizeBar{
+    width: 200px;
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+.progress-barAt {
+  width: 43.2%;
+  
+}
+.progress-barDef {
+  width: 36.1%;
+  
+}
+.progress-barSp {
+  width: 40%;
+  
+}
+.progress-barTot {
+  width: 67.3%;
+}
+
+
+.Types {
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+}
+.type {
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: -5px;
+
+}
+#Grass {
+        background-color: #77C850;
+        box-shadow: 0 0 10px 2.5px #77C850;
+}  
+#Poison {
+        background-color: #7B1FA2;
+        box-shadow: 0 0 10px 2.5px #7B1FA2;
+}  
