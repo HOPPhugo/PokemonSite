@@ -2,14 +2,18 @@ main {
     display: flex;
     flex-direction: row;
     justify-self: center;
-    margin-top: 25vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 190vh;
 }
 html, body {
     max-height: 100%;
-    background-image: url(../../Images/lava.jpg);
     background-repeat: no-repeat;
-    background-position-x: -150px;
-    background-position-y: -150px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../../Images/lava.svg);
+
     
 }
 .Left {
@@ -94,7 +98,7 @@ margin-left: -200px;
   50% { width: 100%; }
 }
 #BareFormat {
-background:linear-gradient( 135deg, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF50);
+background:linear-gradient( 135deg, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a, #e42323,  #e9775a);
   
   height: 20px;
   
@@ -115,7 +119,7 @@ background:linear-gradient( 135deg, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF5
     border-radius: 20px;
 }
 .progress-barAt {
-  width: 32.6%;
+  width: 15.3%;
   
 }
 .progress-barDef {
@@ -123,11 +127,11 @@ background:linear-gradient( 135deg, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF5
   
 }
 .progress-barSp {
-  width: 30%;
+  width: 32.5%;
   
 }
 .progress-barTot {
-  width: 51.9%;
+  width: 43%;
 }
 
 
@@ -143,11 +147,7 @@ background:linear-gradient( 135deg, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF5
     padding-top: -5px;
 
 }
-#Grass {
-        background-color: #77C850;
-        box-shadow: 0 0 10px 2.5px #77C850;
-}  
-#Poison {
-        background-color: #7B1FA2;
-        box-shadow: 0 0 10px 2.5px #7B1FA2;
-}  
+#Fire {
+        background-color: #f59048;
+        box-shadow: 0 0 10px 2.5px #f59048;
+}

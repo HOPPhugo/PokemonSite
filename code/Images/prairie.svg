@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Ciel -->
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b9f6ca"/>
+      <stop offset="100%" stop-color="#69f0ae"/>
+    </linearGradient>
+
+    <!-- Herbe -->
+    <linearGradient id="grass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </linearGradient>
+
+    <!-- Lumière centrale EXACTEMENT au centre -->
+    <radialGradient id="sunGlow" cx="960" cy="540" r="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ciel -->
+  <rect width="1920" height="1080" fill="url(#sky)" />
+
+  <!-- Glow centré -->
+  <rect width="1920" height="1080" fill="url(#sunGlow)" />
+
+  <!-- Prairie centrée -->
+  <path d="M0 540 
+           Q480 480 960 540 
+           T1920 540 
+           L1920 1080 
+           L0 1080 Z"
+        fill="url(#grass)" />
+
+  <!-- Petit point énergie au centre exact -->
+  <circle cx="960" cy="540" r="20" fill="#ffffff" opacity="0.8"/>
+
+</svg>

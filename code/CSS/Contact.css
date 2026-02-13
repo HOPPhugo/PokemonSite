@@ -1,0 +1,22 @@
+main {
+    flex-direction: column;
+}
+.Content {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.Description {
+    flex: 1;
+}
+.Droite {
+    flex: 1;
+}
+fieldset {
+    max-width: 400px;
+}
+#Chut {
+    font-size: 10px;
+    color: grey;
+}

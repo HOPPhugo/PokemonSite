@@ -11,13 +11,13 @@ body {
     display:flex;
     flex-direction: column;
 }
-main {
-    margin-top: 19vh;
-}
 p {
     margin: 0;
 }
 #Space {
     height: 50vh;
     width: 100%;
+}
+main {
+    margin-top: 150px;
 }

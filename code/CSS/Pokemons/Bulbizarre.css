@@ -6,9 +6,10 @@ main {
 }
 html, body {
     max-height: 100%;
-    background-image: url(../../Images/forest.jfif);
     background-repeat: no-repeat;
-    background-position-y:-350px;
+    background-size: cover;
+    background-image: url(../../Images/prairie.svg);
+    
     
 }
 .Left {

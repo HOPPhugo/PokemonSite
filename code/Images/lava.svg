@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Ciel sombre -->
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3e2723"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+
+    <!-- Lave -->
+    <linearGradient id="lava" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffeb3b"/>
+      <stop offset="40%" stop-color="#ff9800"/>
+      <stop offset="70%" stop-color="#ff3d00"/>
+      <stop offset="100%" stop-color="#b71c1c"/>
+    </linearGradient>
+
+    <!-- Glow lave -->
+    <radialGradient id="lavaGlow" cx="50%" cy="75%" r="50%">
+      <stop offset="0%" stop-color="#ff5722" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff5722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ciel -->
+  <rect width="1920" height="1080" fill="url(#sky)" />
+
+  <!-- Lueur centrale -->
+  <ellipse cx="960" cy="750" rx="600" ry="250" fill="url(#lavaGlow)" />
+
+  <!-- Lac de lave -->
+  <ellipse cx="960" cy="800" rx="900" ry="250" fill="url(#lava)" />
+
+  <!-- Rocher central -->
+  <ellipse cx="960" cy="700" rx="200" ry="120" fill="#424242"/>
+  <ellipse cx="960" cy="670" rx="160" ry="90" fill="#616161"/>
+
+  <!-- Fissures lumineuses -->
+  <path d="M300 800 Q500 760 700 820"
+        stroke="#ffff8d" stroke-width="4" fill="none"/>
+  <path d="M1100 820 Q1300 760 1600 830"
+        stroke="#fff176" stroke-width="3" fill="none"/>
+
+  <!-- Étincelles -->
+  <circle cx="600" cy="500" r="6" fill="#ffcc80"/>
+  <circle cx="1200" cy="450" r="5" fill="#ffab40"/>
+  <circle cx="1000" cy="400" r="7" fill="#ff7043"/>
+
+</svg>
