@@ -54,6 +54,7 @@
         padding-left: 1vw;
         padding-bottom: 2vh;
         max-width: 25vw;
+        padding-right: 1vw;
     }
     /* ------------ */
 
@@ -109,3 +110,30 @@
             border: solid, 2px;
     }
 /* ------------ */
+
+@media (max-width: 1123px) { 
+    main{
+        gap: 20px;
+    }
+}
+@media (max-width: 973px) {
+    #title, #title2 {
+        font-size: 75px;
+    }
+}
+@media (max-width:877px){
+    header{
+        
+        padding-left: 20px;
+    }
+}
+@media (max-width:775px){
+    h1 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 645px) {
+    #title, #title2 {
+        font-size: 50px;
+    }
+}
