@@ -1,6 +1,9 @@
 main {
     flex-direction: column;
 }
+body {
+        background-color: #24cccc;
+}
 .Content {
     padding: 20px;
     display: flex;
@@ -10,7 +13,10 @@ main {
 .Description {
     flex: 1;
 }
-.Droite {
+.Droite{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     flex: 1;
 }
 fieldset {
@@ -19,4 +25,17 @@ fieldset {
 #Chut {
     font-size: 10px;
     color: grey;
+}
+#Moi {
+    width: 150px;
+}
+section {
+    background-color: #50E5E5;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid, 1px;
+    box-shadow:  0 0 30px 2.5px  #50E5E5;
+}
+#submit {
+    box-shadow:  0 0 15px 5px  rgb(31, 255, 255);
 }
