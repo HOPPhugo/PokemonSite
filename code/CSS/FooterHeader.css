@@ -47,3 +47,21 @@ footer {
     
 }
 /*-------------*/
+
+@media (max-width: 973px) {
+    #title, #title2 {
+        font-size: 75px;
+    }
+    footer span{
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 645px) {
+    #title, #title2 {
+        font-size: 50px;
+    }
+    footer span{
+        font-size: 50px;
+    }
+}

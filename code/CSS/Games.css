@@ -9,7 +9,7 @@ main {
         justify-content: center;
         flex-wrap: wrap;
 }
-section {
+section, button{
         font-size: 50px;
         text-align: center;
         background-color: #1ba8a8;
@@ -17,8 +17,13 @@ section {
         padding: 20px;
         border-radius: 15px;
         display: flex;
-        flex-direction: column;
-        height: 300px;
+        flex-wrap: wrap;
+        gap: 20px;
+        border-color:#ffffff00;
+        justify-content: center;
+}
+.GenTitle {
+        width: 100%;
 }
 article {
     display: flex;
@@ -62,6 +67,7 @@ summary {
 }
 /* --Générations-- */
 #G1 {
+
         background-color:#e67d2242;
         color: #E67E22;
 }
@@ -96,6 +102,15 @@ summary {
 #G9 {
         background-color:#e67d2242;
         color: #E67E22;
+}
+button:hover section{
+        visibility: visible;
+}
+button:not(:hover) section{
+        visibility: hidden;
+}
+button:not(:hover) {
+        height: 107px;
 }
 /* -------------- */
 
@@ -160,3 +175,18 @@ summary {
       content: url("../Images/Jaquette_de_Pokémon_Let\'s_Go_Évoli.png")
 }
 /* -------------  */
+
+
+@media (max-width:845px){
+        #PokemonSoleil, #PokemonUltraSoleil, #PokemonPikachu, .groupe{
+        width: 30vw;
+        height: 30vw;
+        }
+        summary #Description{
+        font-size: 2vw;
+        }
+        summary {
+                max-height: 30vw;
+                font-size: 3vw;
+        }
+}
