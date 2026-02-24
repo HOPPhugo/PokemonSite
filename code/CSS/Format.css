@@ -21,3 +21,10 @@ p {
 main {
     margin-top: 150px;
 }
+html {
+  cursor: url('../Images/safeimagekit-resized-pokeball.png') 4 4, auto;
+}
+html:active {
+    
+  cursor: url('../Images/ouvert-resized-pokeball.png') 4 4, auto;
+}
