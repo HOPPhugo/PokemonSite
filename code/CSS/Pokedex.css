@@ -140,7 +140,7 @@ a {
     }
     .Fairy #Type {
         
-        box-shadow: 5px 5px 7px  #C2185B;
+        box-shadow: 5px 5px 7px  #e2719e;
     }
     .Dark #Type {
         
@@ -236,6 +236,9 @@ a {
     }
     .Ground .Num {
         color: #836b62;
+    }
+    .Fairy .Num {
+        color: #e2719e;
     }
     section {
         display: flex;

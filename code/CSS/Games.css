@@ -238,7 +238,7 @@ button:not(:hover) {
 
 
 @media (max-width:845px){
-        #PokemonSoleil, #PokemonUltraSoleil, #PokemonPikachu, .groupe{
+        #PokemonSoleil, #PokemonUltraSoleil, #PokemonPikachu, #PokemponOr, #PopkemonCristal, #PokemonRubis, #PokemonEmeraude, #PokemonRougeFeu .groupe{
         width: 30vw;
         height: 30vw;
         }
