@@ -110,7 +110,7 @@ button:not(:hover) section{
         visibility: hidden;
 }
 button:not(:hover) {
-        height: 107px;
+        height: 102px;
 }
 /* -------------- */
 
@@ -173,6 +173,66 @@ button:not(:hover) {
 }
 #PokemonPikachu:hover {
       content: url("../Images/Jaquette_de_Pokémon_Let\'s_Go_Évoli.png")
+}
+/* -------------  */
+/* --Or/Argent-- */
+#PetitArgent {
+        justify-self: end;
+        position: absolute;
+        width: 50px;  
+}
+
+#PetitArgent:hover{
+      content: url("../Images/Jaquette_de_Pokémon_Or.png");
+}
+.Groupe:has(#PetitArgent:hover) #PokemonOr {
+      content: url("../Images/Jaquette_de_Pokémon_Argent.png")
+}
+.Groupe:has(#PokemonOr:hover) #PetitArgent {
+      content: url("../Images/Jaquette_de_Pokémon_Or.png")
+}
+#PokemonOr:hover {
+      content: url("../Images/Jaquette_de_Pokémon_Argent.png")
+}
+/* -------------  */
+/* --Rubis/Saphir-- */
+#PetitSaphir {
+        justify-self: end;
+        position: absolute;
+        width: 50px;  
+}
+
+#PetitSaphir:hover{
+      content: url("../Images/Jaquette_de_Pokémon_Rubis.png");
+}
+.Groupe:has(#PetitSaphir:hover) #PokemonRubis {
+      content: url("../Images/Jaquette_de_Pokémon_Saphir.png")
+}
+.Groupe:has(#PokemonRubis:hover) #PetitSaphir {
+      content: url("../Images/Jaquette_de_Pokémon_Rubis.png")
+}
+#PokemonRubis:hover {
+      content: url("../Images/Jaquette_de_Pokémon_Saphir.png")
+}
+/* -------------  */
+/* --Rouge feu/Vert feuille-- */
+#PetitVertFeuille {
+        justify-self: end;
+        position: absolute;
+        width: 50px;  
+}
+
+#PetitVertFeuille:hover{
+      content: url("../Images/Jaquette_de_Pokémon_Rouge_Feu.png");
+}
+.Groupe:has(#PetitVertFeuille:hover) #PokemonRougeFeu {
+      content: url("../Images/Jaquette_de_Pokémon_Vert_Feuille.png")
+}
+.Groupe:has(#PokemonRougeFeu:hover) #PetitVertFeuille {
+      content: url("../Images/Jaquette_de_Pokémon_Rouge_Feu.png")
+}
+#PokemonRougeFeu:hover {
+      content: url("../Images/Jaquette_de_Pokémon_Vert_Feuille.png")
 }
 /* -------------  */
 

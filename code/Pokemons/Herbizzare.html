@@ -3,15 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../../CSS/FooterHeader.css">
-            <link rel="stylesheet" href="../../CSS/Format.css">
-            <link rel="stylesheet" href="../../CSS/Pokemons/Bulbizarre.css">
+        <link rel="stylesheet" href="../CSS/FooterHeader.css">
+            <link rel="stylesheet" href="../CSS/Format.css">
+            <link rel="stylesheet" href="../CSS/Pokemons/Bulbizarre.css">
         <title>Ivysaur</title>
     </head>
     <body>
         <header class="header">
             <Span id="title">Pokemon</Span>
-            <a id="HomeLink" href="../Index.html"><img id="pokeball" src="../../Images/pokeball.png" alt="pokeball"></a>
+            <a id="HomeLink" href="../Index.html"><img id="pokeball" src="../Images/pokeball.png" alt="pokeball"></a>
             <Span id="title2">Wiki</Span>
         </header>
         <main>
@@ -39,7 +39,7 @@
                 </div>
             </section>
             <section class="Middle">
-                <img id="Bulbasaur" src="../../Images/Dracaufeu-RFVF.png" alt="">
+                <img id="Bulbasaur" src="../Images/Herbizarre-RFVF.png" alt="">
             </section>
             <section class="Right">
                 <div class="CloudR">
@@ -79,6 +79,12 @@
             Bulbasaur
         </span>
     </footer>
-   
+    <script>
+        const HerbizarreSound = new Audio('../Audio/Cri_0002_HOME.ogg');
+        window.onload = function myFunction() {
+            HerbizarreSound.play();
+        }
+    
+    </script>
     </body>
 </html>

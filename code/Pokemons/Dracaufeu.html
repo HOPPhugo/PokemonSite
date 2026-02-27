@@ -3,15 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../../CSS/FooterHeader.css">
-            <link rel="stylesheet" href="../../CSS/Format.css">
-            <link rel="stylesheet" href="../../CSS/Pokemons/Salamèche.css">
+        <link rel="stylesheet" href="../CSS/FooterHeader.css">
+            <link rel="stylesheet" href="../CSS/Format.css">
+            <link rel="stylesheet" href="../CSS/Pokemons/Bulbizarre.css">
         <title>Ivysaur</title>
     </head>
     <body>
         <header class="header">
             <Span id="title">Pokemon</Span>
-            <a id="HomeLink" href="../Index.html"><img id="pokeball" src="../../Images/pokeball.png" alt="pokeball"></a>
+            <a id="HomeLink" href="../Index.html"><img id="pokeball" src="../Images/pokeball.png" alt="pokeball"></a>
             <Span id="title2">Wiki</Span>
         </header>
         <main>
@@ -27,18 +27,19 @@
                         <span><strong>Type</strong> </span>
                     </div>
                     <div class="RightLeft">
-                        <span>#4</span>
-                        <span>0.6 m</span>
-                        <span>8.5 kg</span>
-                        <span>Brasier |  Force soleil</span>
+                        <span>#2</span>
+                        <span>1 m</span>
+                        <span>13 kg</span>
+                        <span>Overgrow |  Chlorophylle</span>
                         <div class="Types">
-                            <div class="type" id="Fire">Fire</div>
+                            <div class="type" id="Grass">Grass</div>
+                            <div class="type" id="Poison">Poison</div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="Middle">
-                <img id="Bulbasaur" src="../../Images/Salamèche-CA.png" alt="">
+                <img id="Bulbasaur" src="../Images/Dracaufeu-RFVF.png" alt="">
             </section>
             <section class="Right">
                 <div class="CloudR">
@@ -53,19 +54,19 @@
                     </div>
                     <div class="RightLeft" id="Right">
                         <div class="MaxSizeBar">
-                            <div class="progress-barHP" id="BareFormat">39</div>
+                            <div class="progress-barHP" id="BareFormat">60</div>
                         </div>
                         <div class="MaxSizeBar">
-                            <div class="progress-barAt" id="BareFormat">52</div>
+                            <div class="progress-barAt" id="BareFormat">62</div>
                         </div>
                         <div class="MaxSizeBar">
-                            <div class="progress-barDef" id="BareFormat">43</div>
+                            <div class="progress-barDef" id="BareFormat">63</div>
                         </div>
                         <div class="MaxSizeBar">
-                            <div class="progress-barSp" id="BareFormat">65</div>
+                            <div class="progress-barSp" id="BareFormat">60</div>
                         </div>
                         <div class="MaxSizeBar">
-                            <div class="progress-barTot" id="BareFormat">309</div>
+                            <div class="progress-barTot" id="BareFormat">405</div>
                         </div>
                     </div>
                 </div>
@@ -78,5 +79,12 @@
             Bulbasaur
         </span>
     </footer>
+    <script>
+    const DracaufeuSound = new Audio('../Audio/Cri_0006_HOME.ogg');
+        window.onload = function myFunction() {
+            DracaufeuSound.play();
+        }
+    
+    </script>
     </body>
 </html>
