@@ -1,0 +1,51 @@
+
+#Space {
+    height: 0;
+    width:0%;
+}
+
+@media (max-width:1239px){
+    .CloudR, .cloudL {
+        width: 200px;
+    }
+    #Right .MaxSizeBar {
+        width: 90px;
+    }
+}
+@media (max-width:1117px){
+    #Bulbasaur{
+        width: 200px;
+    }
+    .LeftLeft, .RightLeft {
+        font-size: 20px;
+    }
+}
+@media (max-width:979px){
+    .LeftLeft, .RightLeft {
+        font-size: 20px;
+    }
+}
+@media (max-width:645px){
+    main{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .Right, .Left {
+    perspective: 0;
+    transform:none;
+    }
+    .Middle, .Right {
+        margin: 0;
+    }
+    .CloudR, .cloudL {
+    font-size: 40px;
+    }
+    .MaxSizeBar{
+        
+    width: 200px;
+    }
+#Space {
+    height: 50vh;
+    width: 100%;
+}
+}

@@ -64,4 +64,22 @@ footer {
     footer span{
         font-size: 50px;
     }
+    #pokeball {
+        width: 15vh;
+    }
+}
+
+@media (max-width: 473px) {
+    #title, #title2 {
+        font-size: 40px;
+    }
+    footer span{
+        font-size: 40px;
+    }
+    #pokeball {
+        width: 10vh;
+    }
+    #title {
+        margin-left: 10px;
+    }
 }

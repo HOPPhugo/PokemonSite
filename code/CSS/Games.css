@@ -238,7 +238,7 @@ button:not(:hover) {
 
 
 @media (max-width:845px){
-        #PokemonSoleil, #PokemonUltraSoleil, #PokemonPikachu, #PokemponOr, #PopkemonCristal, #PokemonRubis, #PokemonEmeraude, #PokemonRougeFeu .groupe{
+        #PokemonSoleil, #PokemonUltraSoleil, #PokemonPikachu, #PokemonOr, #PokemonCristal, #PokemonRubis, #PokemonEmeraude, #PokemonRougeFeu{
         width: 30vw;
         height: 30vw;
         }
@@ -248,5 +248,20 @@ button:not(:hover) {
         summary {
                 max-height: 30vw;
                 font-size: 3vw;
+        }
+}
+@media (max-width:583px){
+        #PokemonSoleil, #PokemonUltraSoleil, #PokemonPikachu, #PokemonOr, #PokemonCristal, #PokemonRubis, #PokemonEmeraude, #PokemonRougeFeu{
+        width: 25vw;
+        height: 25vw;
+        
+        }
+        summary {
+                max-height: 22vw;
+        }
+}
+@media (max-width:471px){
+        span {
+                font-size: 40px;
         }
 }

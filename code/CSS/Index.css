@@ -143,4 +143,7 @@
     .LeftSide p,a,li {
         font-size: 5vw;
     }
+    .NavTexte {
+        padding: 0px;
+    }
 }

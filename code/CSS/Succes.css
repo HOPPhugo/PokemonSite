@@ -218,3 +218,10 @@ body {
     opacity: 1;
   }
 }
+
+@media (max-width:1491px){
+  .sign {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
