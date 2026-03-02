@@ -29,6 +29,7 @@
     main{
         flex-direction: column;
         gap: 50px;
+        margin: 0;
     }
     .Right, .Left {
     perspective: 0;
@@ -39,13 +40,14 @@
     }
     .CloudR, .cloudL {
     font-size: 40px;
+        padding: 45px;
     }
     .MaxSizeBar{
         
     width: 200px;
     }
 #Space {
-    height: 50vh;
+    height: 20vh;
     width: 100%;
 }
 }
