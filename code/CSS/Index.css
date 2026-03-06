@@ -145,5 +145,7 @@
     }
     .NavTexte {
         padding: 0px;
+        margin-left: -15px;
+        margin-right: 20px;
     }
 }

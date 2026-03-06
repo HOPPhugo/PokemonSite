@@ -4,6 +4,8 @@ main {
 body {
         background-color: #24cccc;
 }
+html, body {
+}
 .Content {
     padding: 20px;
     display: flex;
