@@ -447,3 +447,52 @@ a {
     a {
         height: fit-content;
     }
+
+
+
+
+/* -- Nav bar -- */
+nav {
+    background-color: #74e7e7c2;
+    width: 120px;
+    height: 130px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 100%;
+    flex-direction: column;
+    position: fixed;
+    align-self: flex-end;
+    margin-top: 25px;
+}
+.bulle {
+    background-color: #ffffff39;
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 65px;
+    margin-bottom: 30px;
+    transition: 0.5s ease-in;
+}
+nav span {
+    opacity: 30%;
+    z-index: 2;
+}
+#Cont:hover ~ .bulle{
+    margin-top: 70px;
+    margin-right: 60px;
+    width: 100px;
+    height: 40px;
+    transition: 0.5s ease-in;
+}
+
+#Game:hover ~ .bulle{
+    margin-top: -10px;
+    margin-right: 65px;
+    width: 140px;
+    height: 40px;
+    transition: 0.5s ease-in;
+}
