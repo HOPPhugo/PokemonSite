@@ -133,21 +133,3 @@ background:linear-gradient( 135deg, #e42323,  #e9775a, #e42323,  #e9775a, #e4232
 .progress-barTot {
   width: 43%;
 }
-
-
-.Types {
-    display: flex;
-    width: fit-content;
-    gap: 20px;
-}
-.type {
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: -5px;
-
-}
-#Fire {
-        background-color: #f59048;
-        box-shadow: 0 0 10px 2.5px #f59048;
-}

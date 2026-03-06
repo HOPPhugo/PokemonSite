@@ -130,25 +130,3 @@ background:linear-gradient( 135deg, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF5
 .progress-barTot {
   width: 51.9%;
 }
-
-
-.Types {
-    display: flex;
-    width: fit-content;
-    gap: 20px;
-}
-.type {
-    border-radius: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: -5px;
-
-}
-#Grass {
-        background-color: #77C850;
-        box-shadow: 0 0 10px 2.5px #77C850;
-}  
-#Poison {
-        background-color: #7B1FA2;
-        box-shadow: 0 0 10px 2.5px #7B1FA2;
-}  
