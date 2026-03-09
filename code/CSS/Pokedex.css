@@ -477,9 +477,12 @@ nav {
     margin-bottom: 30px;
     transition: 0.5s ease-in;
 }
-nav span {
+nav a {
     opacity: 30%;
     z-index: 2;
+}
+nav a:hover {
+    cursor:url('../Images/PKMN\ Box\ Cursor\ -\ Normal.cur') 4 4, auto;
 }
 #Cont:hover ~ .bulle{
     margin-top: 70px;
@@ -495,4 +498,53 @@ nav span {
     width: 140px;
     height: 40px;
     transition: 0.5s ease-in;
+}
+@media (max-width:1422px){
+    nav {
+    width: 60px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 0px;
+    flex-direction: column;
+    position: fixed;
+    align-self: start;
+    margin-left: -85px;
+    margin-top: -100px;
+    gap: 200px;
+    }
+    nav a {
+        rotate: -90deg;
+        font-size: 30px;
+        gap: 50px;
+    }
+    #game {
+        margin-top: -100px;
+        width: 240px;
+    }
+    .bulle {
+        height: 5px;
+        border-radius: 0 ;
+        margin-left: 0;
+        transition: 1.5s ease;
+    }
+    .PokemonChain {
+        margin-left: 60px;
+    }
+    #Cont:hover ~ .bulle{
+        margin-top: 165px;
+        border-radius: 60%;
+        transition: 1s ease-in-out;
+        height: 140px;
+        width: 50px;
+        margin-left: 60px;
+    }
+
+    #Game:hover ~ .bulle{
+        margin-top: -290px;
+        border-radius: 60%;
+        transition: 1s ease-in-out;
+        height: 300px;
+        width: 70px;
+        margin-left: 70px;
+    }
 }
