@@ -1,9 +1,11 @@
 main { 
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
 body {
         background-color: #24cccc;
+    overflow-x: hidden;
 }
 .Content {
     padding: 20px;
@@ -110,5 +112,25 @@ nav a:hover {
         width: 300px;
         margin-left: -400px;
     }
+    @media (max-width:635px){
+        nav {
+            gap: 100px;
+        }
 
+    }
+    #Cont:hover ~ .bulle{
+        border-radius: 60%;
+        transition: 1s ease-in-out;
+        height: 50px;
+        width: 140px;
+        margin-left: 220px;
+    }
+
+    #Game:hover ~ .bulle{
+        border-radius: 60%;
+        transition: 1s ease-in-out;
+        height: 50px;
+        width: 300px;
+        margin-left: -300px;
+    }
 /* ---------- */
