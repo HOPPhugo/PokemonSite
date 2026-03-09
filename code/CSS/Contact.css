@@ -1,10 +1,9 @@
-main {
+main { 
+    display: flex;
     flex-direction: column;
 }
 body {
         background-color: #24cccc;
-}
-html, body {
 }
 .Content {
     padding: 20px;
@@ -56,3 +55,60 @@ section {
 .Ranges:hover {
     opacity: 1;
 }
+
+/* -- NavBar -- */
+
+nav a {
+    opacity: 30%;
+    z-index: 2;
+}
+nav a:hover {
+    cursor:url('../Images/PKMN\ Box\ Cursor\ -\ Normal.cur') 4 4, auto;
+}
+
+
+    nav {
+    background-color: #74e7e7c2;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    flex-direction: row;
+    padding: 30px;
+    gap: 200px;
+    }
+    nav a {
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+    }
+    #Game {
+        margin-left: -100px;
+    }
+    .bulle {
+        height: 40px;
+        border-radius: 0;
+        margin-left: 0;
+        transition: 1.5s ease;
+        background-color: #ffffff39;
+        width: 5px;
+        position: absolute;
+    }
+    #Cont:hover ~ .bulle{
+        border-radius: 60%;
+        transition: 1s ease-in-out;
+        height: 50px;
+        width: 140px;
+        margin-left: 320px;
+    }
+
+    #Game:hover ~ .bulle{
+        border-radius: 60%;
+        transition: 1s ease-in-out;
+        height: 50px;
+        width: 300px;
+        margin-left: -400px;
+    }
+
+/* ---------- */

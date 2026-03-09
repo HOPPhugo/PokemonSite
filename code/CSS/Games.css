@@ -8,6 +8,7 @@ main {
         gap: 20px;
         justify-content: center;
         flex-wrap: wrap;
+        padding-left: 150px;
 }
 section, button{
         font-size: 50px;
@@ -52,13 +53,9 @@ summary {
 #Description {
         font-size: 20px;
 }
-#More {
-        color: rgba(240, 255, 255, 0.308);
-        font-size: 25px;
-}
 .Categorie {
         height: fit-content;
-        width: 100%;
+        width: 100%
 }
 .Categorie Article {
         display: flex;
@@ -103,13 +100,13 @@ summary {
         background-color:#e67d2242;
         color: #E67E22;
 }
-button:hover section{
+button:focus section{
         visibility: visible;
 }
-button:not(:hover) section{
+button:not(:focus) section{
         visibility: hidden;
 }
-button:not(:hover) {
+button:not(:focus) {
         height: 102px;
 }
 /* -------------- */
@@ -236,6 +233,73 @@ button:not(:hover) {
 }
 /* -------------  */
 
+/* -- NavBar -- */
+
+nav a {
+    opacity: 30%;
+    z-index: 2;
+}
+nav a:hover {
+    cursor:url('../Images/PKMN\ Box\ Cursor\ -\ Normal.cur') 4 4, auto;
+}
+
+
+    nav {
+    background-color: #74e7e7c2;
+    width: 60px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    flex-direction: column;
+    position: fixed;
+    align-self: start;
+    visibility: visible;
+    gap: 200px;
+    padding-top: 100px;
+    }
+    nav a {
+        rotate: -90deg;
+        font-size: 30px;
+        gap: 50px;
+        text-decoration: none;
+        color: white;
+    }
+    #game {
+        margin-top: -100px;
+        width: 240px;
+    }
+    .bulle {
+        height: 5px;
+        border-radius: 0 ;
+        margin-left: 0;
+        transition: 1.5s ease;
+        background-color: #ffffff39;
+        width: 80px;
+        position: absolute;
+        margin-top: -30px;
+    }
+    #Cont:hover ~ .bulle{
+        margin-top: 135px;
+        border-radius: 60%;
+        transition: 1s ease-in-out;
+        height: 140px;
+        width: 50px;
+        margin-left: 10px;
+    }
+
+    #Game:hover ~ .bulle{
+        margin-top: -300px;
+        border-radius: 60%;
+        transition: 1s ease-in-out;
+        height: 300px;
+        width: 70px;
+        margin-left: 10px;
+    }
+
+/* ---------- */
 
 @media (max-width:845px){
         #PokemonSoleil, #PokemonUltraSoleil, #PokemonPikachu, #PokemonOr, #PokemonCristal, #PokemonRubis, #PokemonEmeraude, #PokemonRougeFeu{
