@@ -149,3 +149,26 @@
         margin-right: 20px;
     }
 }
+@media (max-width:803px){
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .RightSide, .LeftSide{
+        margin: 0;
+    }
+    .RightSide {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Description article{
+        width: 90%;
+    }
+    .Description {
+        width: 80%;
+        max-width:none;
+    }
+}
