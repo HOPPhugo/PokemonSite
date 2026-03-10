@@ -298,7 +298,9 @@ nav a:hover {
         width: 70px;
         margin-left: 10px;
     }
-
+img {
+        border-radius: 8px;
+}
 /* ---------- */
 
 @media (max-width:845px){
@@ -337,5 +339,22 @@ nav a:hover {
 @media (max-width:379px){
         button span, section span{
                 font-size: 20px;
+        }
+}
+@media (max-width:471px){
+        nav{
+                width: 30px;
+        }
+        .bulle {
+                width: 50px;
+        }
+        main {
+                padding-left: 80px;
+        }
+
+}
+@media (max-width:373px) {
+        article {
+                flex-wrap: wrap;
         }
 }
