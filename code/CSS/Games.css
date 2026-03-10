@@ -103,6 +103,9 @@ summary {
         background-color:#e67d2242;
         color: #E67E22;
 }
+#G2:hover, #G3:hover, #G7:hover{
+        cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;
+}
 button:focus section{
         visibility: visible;
 }

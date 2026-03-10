@@ -125,12 +125,6 @@
         gap: 20px;
     }
 }
-@media (max-width:877px){
-    header{
-        
-        padding-left: 20px;
-    }
-}
 @media (max-width:775px){
     h1 {
         font-size: 25px;
@@ -143,11 +137,22 @@
     .LeftSide p,a,li {
         font-size: 5vw;
     }
+    .GithubLink {
+        padding: 10px;
+        padding-top: -10px;
+    }
+    #LinkText {
+        padding: 0;
+    }
     .NavTexte {
         padding: 0px;
         margin-left: -15px;
         margin-right: 20px;
     }
+}
+a:hover {
+    
+        cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;
 }
 @media (max-width:803px){
     .content {
@@ -170,5 +175,10 @@
     .Description {
         width: 80%;
         max-width:none;
+    }
+}
+@media (max-width:443px){
+    .Hugo{
+        padding: 10px;
     }
 }

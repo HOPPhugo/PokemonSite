@@ -28,3 +28,7 @@ html:active {
     
   cursor: url('../Images/ouvert-resized-pokeball.png') 4 4, auto;
 }
+a:hover, input:hover {
+    
+        cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;
+}

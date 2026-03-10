@@ -6,7 +6,7 @@ span {
     text-shadow: none;
 }
 span:hover {
-    cursor:pointer;
+        cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;
 }
 main {
     display: flex;
@@ -24,7 +24,7 @@ main {
 section:hover {
         height: 210px;
         transition: ease-in 0.5s;
-        cursor:pointer;
+        cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;
 }
 section:hover .Bottom {
     color: white;
@@ -447,6 +447,3 @@ a {
     a {
         height: fit-content;
     }
-
-
-
