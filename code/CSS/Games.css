@@ -329,3 +329,13 @@ nav a:hover {
                 font-size: 40px;
         }
 }
+@media (max-width:553px){
+        button span, section span{
+                font-size: 30px;
+        }
+}
+@media (max-width:379px){
+        button span, section span{
+                font-size: 20px;
+        }
+}
