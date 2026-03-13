@@ -1,10 +1,10 @@
 body {
     background-color: hsl(180, 70%, 47%);
-    
 }
 span {
     text-shadow: none;
 }
+/* Ajoute le curseur personaliser qui est un pointeur qui viens des jeux pokemons dans les box*/
 span:hover {
         cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;
 }
@@ -14,6 +14,7 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
 }
+/* Format pour chaque chaine de pokemon */
 .PokemonChain {
     display: flex;
     flex-direction: row;
@@ -21,11 +22,13 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
+/* ajoute le curseur personaliser au survole de chaque cartes */
 section:hover {
         height: 210px;
         transition: ease-in 0.5s;
         cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;
 }
+/* Permet de faire apparaître le bas de la carte au survole*/
 section:hover .Bottom {
     color: white;
     transition: ease-in 0.6s;
@@ -55,6 +58,7 @@ main {
 .pokemonimg {
     width: 85px;
 }
+/* Permet de faire disparaître le contenu quand il n'est pas survolé */
 .Infos{
     color: hsl(180, 70%, 47%);
     margin-top: 20px;
@@ -240,6 +244,7 @@ a {
     .Fairy .Num {
         color: #e2719e;
     }
+    /* Format universel pour chaque carte */
     section {
         display: flex;
         flex-direction: column;

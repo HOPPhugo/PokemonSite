@@ -1,3 +1,16 @@
+/* pour chaque page de pokemon il y a la même chose mais certaines données change */
+/* Pour chaque page j'utilise : 
+        transform-style: preserve-3d;
+        transform: perspective(15cm) rotateY(-40deg) ;
+    Pour faire l'effet de profondeur sur les petits nuage de donnée 
+*/
+/* Pour l'animation de barre de stats j'utilise ça : 
+        @keyframes progress-animation {
+        0% { width: 0%; }
+        50% { width: 100%; }
+        }
+*/
+
 main {
     display: flex;
     flex-direction: row;

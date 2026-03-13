@@ -21,8 +21,9 @@
             <a id="Cont" href="./Contact.html">Contact</a>
             <div class="bulle"></div>
         </nav>
+        <!--Regroupe tout l'arbre d'un pokemon(de la plus petite forme à la dernière évolution)-->
         <div class="PokemonChain">
-                       
+            <!--Chaque section sont un pokemon avec comme contenu son id, nom, types, image et encore son nom mais en français et japonais écrit et parlé-->
             <section id="Bulbasaur" class="Grass">
                 <a href="PokmeonLink"></a>
                     <article class="Top">
@@ -31,6 +32,7 @@
                         <p class="Titre">Bulbasaur</p>
                         <div class="Centre">
                             <div class="textC">
+                                <!--Ses types-->
                             <p id="Type" class="TypesGrass">grass</p>
                             <p id="Type" class="TypesPoison">poison</p>
                             </div>
@@ -1289,6 +1291,7 @@
 </body>
 </html>
  <script>
+        /* Permet d'ouvrir la page de chaque pokemon en cliquant n'importe ou sur sa carte */
         document.getElementById('Bulbasaur').addEventListener('click', function () {
             window.location.href = 'Pokemons/Bulbizzare.html';
         });
@@ -1309,6 +1312,7 @@
         });
     </script>
 <script>
+    /* Appelle la fonction pour ouvrir la page html de chaque pokemon */
 document.getElementById("1").onclick = function() {myFunction(1)};
 document.getElementById("2").onclick = function() {myFunction(2)};
 document.getElementById("3").onclick = function() {myFunction(3)};

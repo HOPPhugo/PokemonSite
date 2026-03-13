@@ -1,3 +1,6 @@
+/* Format universel pour toutes les pages du site autre que la "Succes" */
+
+
 
 html, body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,6 +24,7 @@ p {
 main {
     margin-top: 150px;
 }
+/* Curseurs personalisé qui remplace la souris originale par une pokebell qui s'ouvre et ferme au clique */
 html {
   cursor: url('../Images/safeimagekit-resized-pokeball.png') 4 4, auto;
 }
@@ -28,6 +32,7 @@ html:active {
     
   cursor: url('../Images/ouvert-resized-pokeball.png') 4 4, auto;
 }
+/* change le curseur "Pointeur" avec une aesthetique venant de pokemon */
 a:hover, input:hover {
     
         cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;

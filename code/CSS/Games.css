@@ -49,6 +49,7 @@ summary {
         font-size: 50px;
         flex: 1;
         max-height: 280px;
+        /* Permet de rendre la div scrollable */
         overflow-y:auto; 
         scrollbar-color: rgba(255, 255, 255, 0.13) transparent;
         scrollbar-width: thin;
@@ -103,12 +104,15 @@ summary {
         background-color:#e67d2242;
         color: #E67E22;
 }
+/* Permet d'ajouter un curseur personalisé sur les elements cliquable/selectionnable */
 #G2:hover, #G3:hover, #G7:hover{
         cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;
 }
+/* Permet de rendre visible le contenu au clique */
 button:focus section{
         visibility: visible;
 }
+/* Permet de rendre invisible le contenu au clique */
 button:not(:focus) section{
         visibility: hidden;
 }
@@ -116,7 +120,7 @@ button:not(:focus) {
         height: 102px;
 }
 /* -------------- */
-
+/* Survole change entre l'image grande et la petite */
 /* --Soleil/Lune-- */
 #PetitLunala {
         justify-self: end;

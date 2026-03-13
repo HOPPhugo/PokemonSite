@@ -150,6 +150,7 @@
         margin-right: 20px;
     }
 }
+/* ajoute un curseur personalisé au survole des elements selectionable / cliquable */
 a:hover {
     
         cursor: url(../Images/PKMN\ Box\ Cursor\ -\ Normal.cur)4 4, auto;
