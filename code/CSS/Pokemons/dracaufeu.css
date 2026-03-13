@@ -129,7 +129,7 @@ background:linear-gradient( 135deg, #4CAF50,  #74e778, #4CAF50,  #74e778, #4CAF5
   color: rgba(255, 255, 255, 0.808);
 }
 .progress-barHP {
-  width: 30.6;
+  width: 30.6%;
   
 }
 .MaxSizeBar{
